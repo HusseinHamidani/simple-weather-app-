@@ -1,0 +1,136 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main_country_handler {
+  width: 100%;
+  min-height: 100vh;
+  background: -moz-liear-gradient(45deg, #FDA2AF, #E9B8FA);
+  background: linear-gradient(45deg, #FDA2AF, #E9B8FA);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_country_handler .input_hanlder {
+  min-height: 60vh;
+  width: 60vw;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_country_handler .input_hanlder input {
+  background: #fff;
+  border: none;
+  height: 40px;
+  width: 30vw;
+  border-radius: 25px;
+  padding: 20px;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.main_country_handler .input_hanlder input:focus {
+  outline: none;
+}
+
+.main_country_handler .input_hanlder .btn {
+  width: 10vw;
+  height: 30px;
+  background: #fff;
+  border-radius: 25px;
+  border: none;
+  -webkit-box-shadow: 0 0 5px #9e9d9d;
+          box-shadow: 0 0 5px #9e9d9d;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.main_country_handler .input_hanlder .btn:hover {
+  background: -moz-liear-gradient(100deg, #FDA2AF, #E9B8FA);
+  background: linear-gradient(100deg, #FDA2AF, #E9B8FA);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.main_country_handler .input_hanlder_display {
+  min-height: 60vh;
+  width: 60vw;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.603);
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main_country_handler .input_hanlder_display h2 {
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+  .main_country_handler .input_hanlder input {
+    font-size: .8rem;
+    width: 80%;
+  }
+  .main_country_handler .input_hanlder .btn {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .main_country_handler .input_hanlder input {
+    width: 100%;
+    font-size: .7rem;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  .main_country_handler .input_hanlder input {
+    font-size: .65rem;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .main_country_handler .input_hanlder input {
+    font-size: .53rem;
+  }
+  .main_country_handler .input_hanlder_display h2 {
+    font-size: .7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
